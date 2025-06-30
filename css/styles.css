@@ -1,0 +1,47 @@
+body {
+	background-color: #0c0412 !important;
+	color: #FFFFFF;
+}
+	
+header, nav {
+	text-align: center;
+	background-color:black;
+}
+
+nav a {
+	padding:15px;
+	padding-bottom:4px;
+	font-size:1.8em;
+	text-decoration:none;
+	color:white;
+}
+
+main {
+	display:flex;
+	text-align: center;
+	justify-content:center;
+	background-color: #0c0412;
+}
+
+main img {
+	border-radius:8px;
+}
+
+nav a:hover {
+	color:gold;
+	transition: 1s;
+	border-bottom:2px gold solid;
+}
+
+footer {
+	color:orange;
+	justify-content: center;
+	background-color:black;
+	text-align: center;
+}
+
+footer img {
+	border-radius:8px;
+	justify-content:start;
+	max-width:10%;
+}
